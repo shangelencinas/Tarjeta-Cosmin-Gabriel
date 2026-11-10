@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarjeta Digital COSMIN & CosLink - Juan Gabriel Flores Quijada</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // Redirects any 404 to index.html with query parameters preserved
+      var segmentCount = 0;
+      var l = window.location;
+      var pathSegments = l.pathname.split('/').slice(1);
+      if (pathSegments.length > segmentCount) {
+        var repoName = pathSegments[0];
+        // If repo name is present (e.g. username.github.io/repo-name/), redirect to /repo-name/?p=/path
+        l.replace(
+          l.protocol + '//' + l.host + '/' + repoName + '/?p=/' + pathSegments.slice(1).join('/') +
+          (l.search ? '&' + l.search.slice(1) : '') + l.hash
+        );
+      } else {
+        l.replace(
+          l.protocol + '//' + l.host + '/?p=/' + pathSegments.join('/') +
+          (l.search ? '&' + l.search.slice(1) : '') + l.hash
+        );
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
