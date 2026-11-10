@@ -26,11 +26,11 @@ export const contactData: ContactInfo = {
     linkedin: 'https://www.linkedin.com/company/coslink-global',
     website: 'https://www.coslink.global',
   },
-  photoUrl: '/assets/aistudio/image_d15c0c47.png',
-  cosminLogoTransparent: '/assets/aistudio/cosmin_logo_transparent.png',
-  cosminLogoWhiteText: '/assets/aistudio/cosmin_logo_white_text.png',
-  coslinkLogoTransparent: '/assets/aistudio/coslink_logo_transparent.png',
-  coslinkLogoWhite: '/assets/aistudio/coslink_logo_white_transparent.png',
+  photoUrl: 'assets/aistudio/image_d15c0c47.png',
+  cosminLogoTransparent: 'assets/aistudio/cosmin_logo_transparent.png',
+  cosminLogoWhiteText: 'assets/aistudio/cosmin_logo_white_text.png',
+  coslinkLogoTransparent: 'assets/aistudio/coslink_logo_transparent.png',
+  coslinkLogoWhite: 'assets/aistudio/coslink_logo_white_transparent.png',
 };
 
 export const cosminServices = [
